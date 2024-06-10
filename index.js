@@ -15,16 +15,16 @@ client.on('ready', async () => {
     const r = new Discord.RichPresence()
         .setApplicationId('1249802424999477400')
         .setType('WATCHING')
-        .setURL('')
+        //.setURL('')
         .setState('💰 Making Money...')
         .setName('TradingView')
         .setDetails('Analysing Forex Charts...')
-        .setAssetsLargeImage('')
-        .setAssetsLargeText('')
-        .setAssetsSmallImage('')
-        .setAssetsSmallText('')
-        .addButton('IC Markets', '')
-        .addButton('FTMO', '');
+        //.setAssetsLargeImage('')
+        //.setAssetsLargeText('')
+        //.setAssetsSmallImage('')
+        //.setAssetsSmallText('')
+        .addButton('IC Markets', 'https://icmarkets.eu/')
+        .addButton('FTMO', 'https://ftmo.com/');
 
     client.user.setActivity(r);
     client.user.setPresence({ status: 'dnd' });
