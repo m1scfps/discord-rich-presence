@@ -13,14 +13,14 @@ client.on('ready', async () => {
     const r = new Discord.RichPresence()
         .setApplicationId('1249802424999477400')
         .setType('WATCHING')
-        //.setURL('')
+        .setURL('https://tradingview.com/')
         //.setState('')
         .setName('TradingView')
         .setDetails('Analysing Forex Charts...')
         .setAssetsLargeImage('tv')
         .setAssetsLargeText('TradingView')
-        //.setAssetsSmallImage('')
-        //.setAssetsSmallText('')
+        .setAssetsSmallImage('tv')
+        .setAssetsSmallText('TradingView')
         .addButton('IC Markets', 'https://icmarkets.eu/')
         .addButton('FTMO', 'https://ftmo.com/');
 
