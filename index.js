@@ -4,9 +4,7 @@ const client = new Discord.Client({
   checkUpdate: false
 });
 
-
 const keepAlive = require('./server.js');
-keepAlive();
 
 client.on('ready', async () => {
     console.clear();
