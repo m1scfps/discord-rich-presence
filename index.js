@@ -13,18 +13,18 @@ client.on('ready', async () => {
     console.log(`${client.user.tag} - rich presence started!`);
 
     const r = new Discord.RichPresence()
-        .setApplicationId('1099642415754776628')
-        .setType('PLAYING')
-        .setURL('https://www.youtube.com/channel/UCYvGMEkXftp8u6El8HyVayw')
-        .setState('Join Now')
-        .setName('Axo Coder')
-        .setDetails('Discord Bots Developer')
-        .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1090901496335441990/1112386293532459150/Axo_Official.png')
-        .setAssetsLargeText('Visit this')
-        .setAssetsSmallImage('https://cdn.discordapp.com/emojis/1101758417720328203.webp?size=96&quality=lossless')
-        .setAssetsSmallText('Verified')
-        .addButton('Yt Channel', 'https://www.youtube.com/channel/UCYvGMEkXftp8u6El8HyVayw')
-        .addButton('Discord Server', 'https://discord.gg/axocoder');
+        .setApplicationId('1249802424999477400')
+        .setType('WATCHING')
+        .setURL('')
+        .setState('💰 Making Money...')
+        .setName('TradingView')
+        .setDetails('Analysing Forex Charts...')
+        .setAssetsLargeImage('')
+        .setAssetsLargeText('')
+        .setAssetsSmallImage('')
+        .setAssetsSmallText('')
+        .addButton('IC Markets', '')
+        .addButton('FTMO', '');
 
     client.user.setActivity(r);
     client.user.setPresence({ status: 'dnd' });
