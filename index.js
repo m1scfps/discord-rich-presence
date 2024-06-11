@@ -14,13 +14,13 @@ client.on('ready', async () => {
         .setApplicationId('1249802424999477400')
         .setType('WATCHING')
         .setURL('https://tradingview.com/')
-        //.setState('')
+        .setState('')
         .setName('TradingView')
         .setDetails('Analysing Forex Charts...')
         .setAssetsLargeImage('tv')
         .setAssetsLargeText('TradingView')
-        //.setAssetsSmallImage('tv')
-        //.setAssetsSmallText('TradingView')
+        .setAssetsSmallImage('tv')
+        .setAssetsSmallText('TradingView')
         .addButton('IC Markets', 'https://icmarkets.eu/')
         .addButton('FTMO', 'https://ftmo.com/');
 
