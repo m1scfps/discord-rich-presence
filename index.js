@@ -17,10 +17,10 @@ client.on('ready', async () => {
         //.setState('')
         .setName('TradingView')
         .setDetails('Analysing Forex Charts...')
-        .setAssetsLargeImage('tv')
+        .setAssetsLargeImage('https://cdn6.aptoide.com/imgs/d/f/2/df279dba551387be877f954efdbcfc2d_icon.png')
         .setAssetsLargeText('TradingView')
-        .setAssetsSmallImage('tv')
-        .setAssetsSmallText('TradingView')
+        //.setAssetsSmallImage('tv')
+        //.setAssetsSmallText('TradingView')
         .addButton('IC Markets', 'https://icmarkets.eu/')
         .addButton('FTMO', 'https://ftmo.com/');
 
