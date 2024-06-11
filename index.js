@@ -17,7 +17,7 @@ client.on('ready', async () => {
         //.setState('')
         .setName('TradingView')
         .setDetails('Analysing Forex Charts...')
-        .setAssetsLargeImage('https://cdn6.aptoide.com/imgs/d/f/2/df279dba551387be877f954efdbcfc2d_icon.png')
+        .setAssetsLargeImage('tv')
         .setAssetsLargeText('TradingView')
         //.setAssetsSmallImage('tv')
         //.setAssetsSmallText('TradingView')
@@ -25,7 +25,7 @@ client.on('ready', async () => {
         .addButton('FTMO', 'https://ftmo.com/');
 
     client.user.setActivity(r);
-    client.user.setPresence({ status: 'dnd' });
+    client.user.setPresence({ status: 'idle' });
 });
 
 client.login(process.env.TOKEN);
